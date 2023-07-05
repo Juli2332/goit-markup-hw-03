@@ -109,7 +109,6 @@
   .full:focus {
    background-color: #404BBF;
   }
-  
   .solution-button {
     cursor: pointer;
     font-family: "Roboto", sans-serif;
@@ -124,7 +123,6 @@
   .solution-button:focus{
     background-color: #404BBF;
    }
-   
   .hid {
     color:var(--navyblue-color);
   }
@@ -135,7 +133,6 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
   }
-  
   .hid-link-text {
     color: var(--secondary-black);
     font-size: 16px;
