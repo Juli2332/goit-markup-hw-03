@@ -170,7 +170,6 @@
   }
   .link-title {
     color: var(--navyblue-color);
-    text-align: center;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -179,7 +178,6 @@
   }
   .link-text {
     color: var(--secondary-black);
-    text-align: center;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -242,8 +240,6 @@
   .filter-link:focus {
     background-color: var(--hover-color);
     color: var(--white);
-  }
-  .foto-link-old {
   }
   
   .foto-link {
