@@ -47,9 +47,8 @@ margin: 0 auto;
  align-items: center;
  margin-top: 24px;
  margin-bottom: 24px;
-border-bottom: 1px solid #e7e9fc
+border-bottom: 1px solid #e7e9fc;
  
-
 }
 .header-navigation {
   color: var( --navyblue-color);
@@ -182,8 +181,8 @@ padding-top: 24px;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 48px;
-  border-radius: 4px;
-  min-width: 169px;   
+  
+    
  }
 
 .solution-button {
@@ -199,6 +198,8 @@ padding-top: 24px;
 margin: 0 auto;
 display: block;
 border: none;
+min-width: 169px;
+border-radius: 4px;
 
 }
 .solution-button:hover,
@@ -247,7 +248,7 @@ padding-left: 32px;
 margin-bottom: 8px
 }
 .hid-link-list {
-flex-basis: calc((100% -72px)/4);
+flex-basis: calc((100% - 72)/4);
   padding-bottom: 32px;
   
 }
@@ -258,7 +259,7 @@ flex-basis: calc((100% -72px)/4);
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
+  
 }
 
 .hid-link-text {
@@ -270,16 +271,18 @@ flex-basis: calc((100% -72px)/4);
 }
 .sec-soul {
   background-color: #FFFFFF;
+  padding-bottom: 120px;
 }
 .sec-soul-title {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
   
   }
 
 .sec-title-list {
 flex-basis: calc((100% - 48)/3);
 padding-bottom: 32px;
+border-radius: 0px 0px 4px 4px
 }
 .doing-soul {
   background-color: #F4F4FD;
@@ -287,7 +290,7 @@ padding-bottom: 32px;
 .soul-container {
   text-align: center;
   padding-top: 120px;
-    padding-bottom: 120px;
+  padding-bottom: 120px;
    
 }
 .soul-title {
@@ -314,13 +317,14 @@ padding-bottom: 32px;
  }
  .title-link {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
     
  }
  .title-list {
   flex-basis: calc((100% - 48)/4);
   padding-bottom: 32px;
   background: var(--white);
+  border-radius: 0px 0px 4px 4px;
 }
  .text-container {
   text-align: center;
@@ -332,6 +336,7 @@ padding-bottom: 32px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .link-text {
   color: var(--secondary-black);
