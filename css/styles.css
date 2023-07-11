@@ -442,13 +442,17 @@ color: var(--navyblue-color);
   margin-right: 24px;
   padding: 12px 24px;
   display: block;
-    border: none;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 
 .filter-link:hover, 
 .filter-link:focus {
   background-color: var(--hover-color);
   color: var(--white);
+  border: 1px solid transparent;
+  
+
 }
 .foto-container {
 
