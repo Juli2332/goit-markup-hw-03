@@ -463,8 +463,7 @@ padding-top: 96px;
 
 }
 .foto-container {
-padding-top: 96px;
-padding-bottom: 120px;
+
 }
 .foto-title {
 display: flex;
@@ -473,7 +472,7 @@ column-gap: 24px;
 flex-wrap: wrap;
 padding: 32px 16px;
 margin-bottom: 8px;
-border: 1px solid #e7e9fc;
+
 }
 
 .foto-link {
@@ -486,12 +485,11 @@ border: 1px solid #e7e9fc;
 }
 .foto-link-old {
 flex-basis: calc((100% - 48)/3);
- padding: 32px 16px;
-margin-bottom: 8px;
+ margin-bottom: 8px;
   border-top: none;
   border: 1px solid var(--cornflower, #E7E9FC);
     background: var(--white, #FFF);
-  flex-grow: 1;
+ 
   margin: 0 auto;
 }
 .foto-link-old h2,
