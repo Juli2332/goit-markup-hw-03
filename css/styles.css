@@ -44,13 +44,13 @@ padding-right: 15px;
 margin: 0 auto;
 }
 .header {
+  margin-top: 24px;
+  margin-bottom: 24px;
   
 }
 .header-container {
  display: flex; 
  align-items: center;
- margin-top: 24px;
- margin-bottom: 24px;
 border-bottom: 1px solid #e7e9fc;
 margin: 0 auto;
 }
@@ -337,6 +337,7 @@ border-radius: 0px 0px 4px 4px
 }
  .text-container {
   text-align: center;
+  border: 1px solid #e7e9fc;
  }
 .link-title {
   color: var(--navyblue-color);
@@ -507,6 +508,7 @@ min-width: 100%;
   letter-spacing: 0.02em;
   color: var(--navyblue-color);
   margin-bottom: 8px;
+  border-top: none;
 }
   
 .foto-link-text {
