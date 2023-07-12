@@ -218,7 +218,6 @@ border-radius: 4px;
   padding: 0 15px;
   margin-right: 0 auto;
   margin-left: 0 auto;
-  width: calc((100%-72px)/4);
   
 }
 .readers {
@@ -257,7 +256,7 @@ padding-left: 32px;
 .hid-link-list {
 flex-basis: calc((100% - 72)/4);
   padding-bottom: 32px;
-  margin-bottom: 8px;
+
 }
 
 .hid-link-title {
@@ -266,7 +265,7 @@ flex-basis: calc((100% - 72)/4);
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  
+  margin-bottom: 8px;
 }
 
 .hid-link-text {
