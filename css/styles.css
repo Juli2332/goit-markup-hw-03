@@ -113,20 +113,19 @@ margin: 0 auto;
 .header-menu {
 display: flex;
 gap: 40px;
-}
-.header-menu-item {
-padding-top: 24px;
-padding-bottom: 24px;
+
 }
 .header-menu-link {
   color: var( --navyblue-color);
   font-size: 16px;
+  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration:none;
   list-style: none;
-  
+  padding-top: 24px;
+  padding-bottom: 24px;
  }
 
 .header-menu-link:hover,
@@ -143,9 +142,7 @@ margin-left: auto;
   align-items: center;
   gap: 40px;
 }
-.address-link {
 
-}
 .address-iten {
   color: var(--secondary-black);
   font-size: 16px;
