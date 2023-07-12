@@ -462,7 +462,8 @@ padding-top: 96px;
 
 }
 .foto-container {
-
+padding-top: 96px;
+padding-bottom: 120px;
 }
 .foto-title {
 display: flex;
