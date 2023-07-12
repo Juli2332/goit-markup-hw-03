@@ -384,6 +384,7 @@ padding-bottom: 100px;
   text-transform: uppercase;
   text-decoration: none;
   
+  
 }
 .footer-text {
   color: var(--secondary-white);
@@ -399,7 +400,7 @@ padding-bottom: 100px;
   padding-bottom: 120px;
 }
 .filter-button {
-width: 100%;
+ width: 100%;
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
@@ -411,8 +412,6 @@ width: 100%;
 display: flex;
 align-items: center;
 color: var(--navyblue-color);
-padding-top: 96px;
-  padding-bottom: 120px;
 }
 
 .filter-hidden {
@@ -423,6 +422,7 @@ padding-top: 96px;
   align-items: center;
   justify-content: center;
   margin-bottom: 72px;
+  margin-top: 96px;
   gap: 24px;
   
 }
@@ -444,11 +444,13 @@ padding-top: 96px;
   color: #ffffff;
   background-color: var(--secondary-white);
   color: var(--iris-color);
-  margin-right: 24px;
   padding: 12px 24px;
   display: block;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
+    margin: 0 auto;
+    min-width: 169px;
+     
 }
 
 .filter-link:hover, 
@@ -458,7 +460,9 @@ padding-top: 96px;
   border: 1px solid transparent;
 
 }
-
+.container-project {
+  
+}
 .foto-container {
   padding: 32px 16px;
 }
