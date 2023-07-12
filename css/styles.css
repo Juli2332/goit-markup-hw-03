@@ -399,14 +399,6 @@ padding-bottom: 100px;
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.filter-button {
- width: 100%;
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  
-  }
 
 .main-container {
 display: flex;
@@ -414,9 +406,8 @@ align-items: center;
 color: var(--navyblue-color);
 }
 
-.filter-hidden {
-  
-}
+
+
 .filter-clic {
   display: flex;
   align-items: center;
