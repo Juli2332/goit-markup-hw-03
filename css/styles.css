@@ -205,7 +205,13 @@ border-radius: 4px;
  
 .readers {
 padding: 120px 0;
-  
+
+}
+
+.hid-container {
+  margin-right: auto;
+  margin-left: auto;
+
 }
 .hid {
   color: var(--navyblue-color);
