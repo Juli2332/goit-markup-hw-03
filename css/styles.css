@@ -209,8 +209,8 @@ padding: 120px 0;
 }
 
 .hid-container {
-  margin-right: auto;
-  margin-left: auto;
+ margin-right: auto;
+  margin-left: auto; 
 
 }
 .hid {
@@ -429,7 +429,7 @@ color: var(--navyblue-color);
      border: 1px solid #e7e9fc;
     border-radius: 4px;
     margin: 0 auto;
-    
+    min-width: 169px;
      
 }
 
@@ -453,6 +453,7 @@ display: flex;
 row-gap: 48px;
 column-gap: 24px;
 flex-wrap: wrap;
+
 }
 
 .foto-link {
