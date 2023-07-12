@@ -232,7 +232,9 @@ padding-top: 120px;
 }
 .hid-link {
   display: flex;
-  gap: 24px;  
+  gap: 24px; 
+  list-style: none;
+    text-align: left;
 }
 .hid-link h3 
 .hid-link p {
@@ -240,7 +242,7 @@ padding-left: 32px;
 
 }
 .hid-link-list {
-flex-basis: calc((100% - 72)/4);
+width: calc((100% - 72px) / 4);
 }
 
 .hid-link-title {
@@ -257,8 +259,8 @@ flex-basis: calc((100% - 72)/4);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
- 
-}
+  text-align: left;
+  }
 .sec-soul {
   background-color: #FFFFFF;
   padding-bottom: 120px;
