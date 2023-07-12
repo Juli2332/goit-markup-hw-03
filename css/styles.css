@@ -93,6 +93,9 @@ margin: 0 auto;
 }
 .list {
   list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+
 }
 .header-logoweb-link {
   color: var( --navyblue-color);
@@ -200,7 +203,7 @@ border-radius: 4px;
   background-color: var(--hover-color);
  }
  
-.readers {
+.section-readers {
 padding: 120px 0;
   
 }
