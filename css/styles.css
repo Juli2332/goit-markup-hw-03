@@ -200,18 +200,12 @@ border-radius: 4px;
   background-color: var(--hover-color);
  }
  
-.hid {
-  color:var(--navyblue-color);
-}
-.hid-container {
-  padding: 0 15px;
-  margin-right: 0 auto;
-  margin-left: 0 auto;
-  
-}
 .readers {
 padding: 120px 0;
   
+}
+.hid {
+  color: var(--navyblue-color);
 }
 .visually-hidden {
   position: absolute;
@@ -242,7 +236,7 @@ padding-left: 32px;
 
 }
 .hid-link-list {
-width: calc((100% - 72px) / 4);
+flex-basis: calc((100% - 72)/4);
 }
 
 .hid-link-title {
