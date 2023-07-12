@@ -117,6 +117,8 @@ margin: 0 auto;
 .header-menu {
 display: flex;
 gap: 40px;
+padding-top: 24px;
+padding-bottom: 24px;
 
 }
 .header-menu-link {
@@ -138,8 +140,7 @@ gap: 40px;
 .addressted {
 font-style: normal;
 margin-left: auto;
-padding-top: 24px;
-padding-bottom: 24px;
+
 }
 .address {
   display: flex; 
@@ -331,7 +332,7 @@ border-radius: 0px 0px 4px 4px
   border-radius: 0px 0px 4px 4px;
   background: var(--white, #FFF);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  display: block;
+
 }
  .text-container {
   text-align: center;
