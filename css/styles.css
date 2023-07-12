@@ -53,7 +53,7 @@ margin: 0 auto;
 .header-container {
  display: flex; 
  align-items: center;
-margin: 0 auto;
+ margin: 0 auto;
 }
 .header-navigation {
   color: var( --navyblue-color);
