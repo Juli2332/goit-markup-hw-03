@@ -1,7 +1,13 @@
+element.style {
+
+}
 *,
 ::after,
 ::before {
   box-sizing: border-box
+}
+head {
+  display: none;
 }
 :root {
   --primari-font: "Raleway", sans-serif;
@@ -437,8 +443,7 @@ color: var(--navyblue-color);
   background-color: var(--secondary-white);
   color: var(--iris-color);
   padding: 12px 24px;
-  display: block;
-    border: 1px solid #e7e9fc;
+     border: 1px solid #e7e9fc;
     border-radius: 4px;
     margin: 0 auto;
     min-width: 169px;
@@ -492,7 +497,7 @@ min-width: 100%;
   background: url(<path-to-image>),
       lightgray -301.702px -106.916px / 234.581% 191.045% no-repeat;
       margin-right: 24px;
-    display: block;
+  
 }
 .foto-link-title {
   font-weight: 500 ;
