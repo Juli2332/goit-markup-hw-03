@@ -389,14 +389,6 @@ padding-bottom: 100px;
   padding-bottom: 120px;
 }
 
-.main-container {
-display: flex;
-align-items: center;
-color: var(--navyblue-color);
-}
-
-
-
 .filter-clic {
   display: flex;
   align-items: center;
@@ -404,7 +396,7 @@ color: var(--navyblue-color);
   margin-bottom: 72px;
   margin-top: 96px;
   gap: 24px;
-  
+  color: var(--navyblue-color);
 }
 .filter-hidden {
   color: var(--white, #ffffff);
@@ -450,9 +442,10 @@ margin: 0 auto;
 
 .foto-title {
 display: flex;
-row-gap: 48px;
-column-gap: 24px;
+gap: 48px 24px;
 flex-wrap: wrap;
+
+
 
 }
 
