@@ -44,15 +44,13 @@ padding-right: 15px;
 margin: 0 auto;
 }
 .header {
-  margin-top: 24px;
-  margin-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
  
 }
 .header-container {
  display: flex; 
  align-items: center;
- margin: 0 auto;
+
 }
 .header-navigation {
   color: var( --navyblue-color);
@@ -124,6 +122,7 @@ gap: 40px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
+  display: block;
   letter-spacing: 0.02em;
   text-decoration:none;
   list-style: none;
@@ -276,9 +275,7 @@ border-radius: 0px 0px 4px 4px
 }
  .soul-container {
   text-align: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+ }
 
 .soul-title {
   color: var(--navyblue-color);
@@ -311,7 +308,6 @@ border-radius: 0px 0px 4px 4px
  }
  .title-list {
   flex-basis: calc((100% - 72px)/4);
-  padding-bottom: 32px;
   border-radius: 0px 0px 4px 4px;
   background: var(--white, #FFF);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -394,7 +390,6 @@ padding-bottom: 100px;
   align-items: center;
   justify-content: center;
   margin-bottom: 72px;
-  margin-top: 96px;
   gap: 24px;
   color: var(--navyblue-color);
 }
@@ -421,8 +416,7 @@ padding-bottom: 100px;
      border: 1px solid #e7e9fc;
     border-radius: 4px;
     margin: 0 auto;
-    min-width: 169px;
-     
+        
 }
 
 .filter-link:hover, 
@@ -466,7 +460,6 @@ img {
 
 .foto-link-old h2,
 .foto-link-old p {
-padding-left: 16px;
 min-width: 100%;
 
 
@@ -497,5 +490,4 @@ min-width: 100%;
   letter-spacing: 0.02em;
   color: var(--secondary-black);
   text-decoration: none;
-  margin-bottom: 32px;
-}
+  }
