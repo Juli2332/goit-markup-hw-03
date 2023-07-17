@@ -316,7 +316,8 @@ border-radius: 0px 0px 4px 4px
  .text-container {
   text-align: center;
   border: 1px solid #e7e9fc;
- }
+  padding-bottom: 32px; 
+}
 .link-title {
   color: var(--navyblue-color);
   font-size: 20px;
@@ -325,6 +326,7 @@ border-radius: 0px 0px 4px 4px
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  
 }
 .link-text {
   color: var(--secondary-black);
